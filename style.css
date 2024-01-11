@@ -1,0 +1,42 @@
+/* footer related styles */
+footer {
+    background: #070211;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 120px 240px;
+}
+
+.footer-part-1{
+    display: flex;
+    gap: 100px;
+
+}
+
+
+.column-1 p{
+    text-align: left;   
+}
+
+.column-2 div {
+    display: flex;
+}
+
+
+.footer-part-2{
+    padding: 10px 240px ;
+}
+
+.footer-images img{
+     margin-right: 24px;        
+}
+
+
+
+.footer-part-3 {
+    display: flex;
+    justify-content: space-between;
+    
+}
