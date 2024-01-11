@@ -1,5 +1,49 @@
+/* Header related styles */
+
+
+.banner {
+    background: linear-gradient(180deg, #070211 0%, rgba(73, 20, 179, 0) 100%);
+    background: url(resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    text-align: center;
+    padding: 177px 430px;
+    
+}
+
+.banner-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
+    
+
+.banner-text {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer related styles */
 footer {
+    margin-top: 100px;
     background: #070211;
     color: #FFF;
     font-family: Inter;
@@ -9,15 +53,15 @@ footer {
     padding: 120px 240px;
 }
 
-.footer-part-1{
+.footer-part-1 {
     display: flex;
     gap: 100px;
 
 }
 
 
-.column-1 p{
-    text-align: left;   
+.column-1 p {
+    text-align: left;
 }
 
 .column-2 div {
@@ -25,12 +69,12 @@ footer {
 }
 
 
-.footer-part-2{
-    padding: 10px 240px ;
+.footer-part-2 {
+    padding: 10px 240px;
 }
 
-.footer-images img{
-     margin-right: 24px;        
+.footer-images img {
+    margin-right: 24px;
 }
 
 
@@ -38,5 +82,5 @@ footer {
 .footer-part-3 {
     display: flex;
     justify-content: space-between;
-    
+
 }
