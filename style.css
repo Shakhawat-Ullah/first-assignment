@@ -123,7 +123,144 @@ section {
 
 
 
+/* Venue related styles */
 
+.venue-content {
+
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 100px;
+    padding: 100px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    text-transform: capitalize;
+    text-align: center;
+
+
+}
+
+.venue-content span {
+    color: #FF0000;
+
+}
+
+.join-now {
+    border: 0;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+/* Coming soon section related styles */
+
+.coming-soon {
+    margin: 100px;
+    display: flex;
+    gap: 100px;
+}
+
+#best-offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px;
+}
+
+#coming-soon-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 10px;
+    text-transform: capitalize;
+}
+
+.coming-soon-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+#year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.coming-soon-part-2 img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 20px;
+
+}
+
+
+
+/* Holiday Section styles */
+
+
+.holidays-sale {
+    margin: 100px;
+}
+
+.holiday-sale-part-1 {
+    text-align: center;
+}
+
+.holiday-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.holiday-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 20px;
+}
+
+.holiday-heading span {
+    color: #F00;
+
+}
+
+.holiday-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+
+}
 
 
 
@@ -132,10 +269,10 @@ section {
 
 
 .portfolio {
-    padding: 0px 60px;
+    padding: 0px 100px;
 }
 
-.portfolio-title{
+.portfolio-title {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
@@ -144,7 +281,7 @@ section {
     line-height: 10px;
 }
 
-.portfolio-heading{
+.portfolio-heading {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -154,7 +291,7 @@ section {
     line-height: 20px;
 }
 
-.portfolio-description{
+.portfolio-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -164,12 +301,13 @@ section {
 
 
 }
+
 .portfolio-images img {
-    width: 375px;
-    height: 400px;
+    width: 350px;
+    height: 360px;
     border-radius: 16px;
     margin-right: 24px;
-    
+
 }
 
 
